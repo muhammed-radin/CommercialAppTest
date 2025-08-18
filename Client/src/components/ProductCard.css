@@ -1,0 +1,36 @@
+.ProductCard_container {
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 10.5;
+}
+
+.ProductCard_container :hover {
+  transform: scale(1.03);
+}
+
+.ProductCard_container img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.product_title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  text-align: center;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}

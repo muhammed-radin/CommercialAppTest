@@ -1,0 +1,16 @@
+.home_container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+.product_list {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 25px;
+   justify-content: center;
+
+}
