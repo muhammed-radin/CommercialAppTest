@@ -46,7 +46,7 @@ export default function AppRoutes() {
       ],
     },
     {
-      path: "*",
+      path: "/404",
       element: <NotFound />,
     },
   ]);
