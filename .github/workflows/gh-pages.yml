@@ -23,14 +23,14 @@ jobs:
         run: cd Client && npm install
 
       - name: Build project
-        run: npm run build
+        run: cd Client && npm run build
 
       - name: Export static files
-        run: npm run export
+        run: cd Client && npm run export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GH_PAGES_TKN }}
-          publish_dir: ./out
+          publish_dir: ./Client/out
           publish_branch: gh-pages
